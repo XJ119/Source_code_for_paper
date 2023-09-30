@@ -16,5 +16,5 @@ The file "train_motion_model_uav_412_attention_2Hz_len3_21000.pth" is a SANNN-3 
 The "flocking_run" folder stores the training data by using Tensorboard.
 "RNN.py" describes the SANNN network.
 "GCN_4_obs_DDPG_v3_dist_attation_reward.py" in the "class_pack" folder describes the policy network, critic network and behavior reasoning network.
-
+The file "model_train_412_attention_2Hz.py" is used to training the motion model based on SANN, and the training data will be uoloaded later.
 
