@@ -1,7 +1,8 @@
 # Source_code_for_paper
-This code is for the paper named "A Model Learning Based Multi-agent Flocking Collaborative Control Method for Stochastic Communication Environment"
+This code is for the paper entitled "A Model Learning Based Multi-agent Flocking Collaborative Control Method for Stochastic Communication Environment"
 This version of the code is a preliminary  version, with a lot of redundant code and incomplete annotations in the code. In the next version, we will make updates.
 We declare that the provided code is for research purposes only and cannot involve commercial activities.
+The training environment is Python 3.8.10+Python, and it is recommended to use CUDA acceleration in the training.
 
 The file "motion_UAV_model_attention_predict_2_test_722_train_SAC_modellen3_train.py" is the policy training python file.
 The file "motion_UAV_model_attention_predict_2_test_722_train_SAC_modellen3_train.py" is the policy test file.
@@ -17,4 +18,6 @@ The "flocking_run" folder stores the training data by using Tensorboard.
 "RNN.py" describes the SANNN network.
 "GCN_4_obs_DDPG_v3_dist_attation_reward.py" in the "class_pack" folder describes the policy network, critic network and behavior reasoning network.
 The file "model_train_412_attention_2Hz.py" is used to training the motion model based on SANN, and the training data will be uoloaded later.
+
+The video file "Gazebo_QGC_test.mp4" is a validation of our algorithm model on the Gazebo physical simulation platform, and simultaneously uses QGroundControl to record the flight information of unmanned aerial vehicles.
 
