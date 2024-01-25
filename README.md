@@ -19,8 +19,8 @@ The "flocking_run" folder stores the training data by using Tensorboard.
 "GCN_4_obs_DDPG_v3_dist_attation_reward.py" in the "class_pack" folder describes the policy network, critic network and behavior reasoning network.
 The file "model_train_412_attention_2Hz.py" is used to training the UAV motion model based on SANN.
 The file "model_train_412_attention_2Hz_mobile_robot.py" is used to training the motion model of mobile robot based on SANN.
-The file "data_01_4_10.csv" and "data_02_4_10.csv" are the UAV training data for SANN-based motion model.
-The file "mobile_robots_data.npy" is the training data of mobile robots for SANN-based motion model.
+The file "data_01_4_10.csv" and "data_02_4_10.csv" are the UAV training data for SANN-based UAV motion model.
+The file "mobile_robots_data.npy" is the training data of mobile robots for SANN-based mobile robot motion model.
 
 The video file "Gazebo_QGC_test.mp4" is a validation of our algorithm model on the Gazebo physical simulation platform, and simultaneously uses QGroundControl to record the flight information of unmanned aerial vehicles.
 The video file "mobile_robots.mp4" is a validation experiment using mobile robots on the Gazebo physical simulation platform.
